@@ -17,6 +17,8 @@ body {
 
 .second-level{
   background-color: #2C2C54;
+  position:relative;
+  z-index: 1;
   padding:3%;
   margin-top: -3px;
 
@@ -31,7 +33,7 @@ body {
 }
 
 .map-image{
-  background: url("../images/BusyBus .png");
+  background: url("../images/BusyBus - 2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,10 +43,6 @@ body {
 }
 /*form styling*/
 
-.location{
-  position: relative;
-  bottom: 600px;
-}
 .input-container{
   margin-left: 2px;
   padding: 0 5%;
@@ -84,23 +82,25 @@ body {
 
 /*route list styling*/
 .routes-list{
-  width:98%;
+  width:100%;
   position: relative;
-  bottom: 400px;
+  top: 200px;
 }
 ul{
   list-style: none;
   border-bottom: 1px solid #979797;
   background-color: #e5e5e5;
+  padding-top: 2%;
+  height:100px;
 }
 li.icon, h2{
   padding-left: 3%;
 }
 .icon{
   position: relative;
-  top: 15px;
+  top:15px;
 }
-.middle, .list-right{
+.middle, .list-right, .time{
   position: relative;
   bottom: 20px;
   left: 70px;
@@ -109,6 +109,11 @@ li.icon, h2{
   bottom: 45px;
   left: 340px;
   color:#979797;
+  font-size: 1.25em;
+}
+.time {
+  bottom: 60px;
+  left: 280px;
 }
 
 h2{
