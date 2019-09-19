@@ -93,26 +93,37 @@ ul{
   padding-top: 2%;
   height:100px;
 }
-li.icon, h2{
+h2{
   padding-left: 3%;
 }
-.icon{
-  position: relative;
-  top:15px;
+
+.bus{
+  background: #1BE6EC;
+  background-position: center;
+  border-radius: 80%;
+  height: 35px;
+  margin-top:23px;
+  margin-left:3%;
+  padding-top: 10px;
+  text-align: center;
+  text-weight: 600;
+  width: 35px;
 }
+
+
 .middle, .list-right, .time{
   position: relative;
-  bottom: 20px;
+  bottom: 30px;
   left: 70px;
 }
 .list-right{
-  bottom: 45px;
+  bottom: 60px;
   left: 340px;
   color:#979797;
   font-size: 1.25em;
 }
 .time {
-  bottom: 60px;
+  bottom: 75px;
   left: 270px;
 }
 
