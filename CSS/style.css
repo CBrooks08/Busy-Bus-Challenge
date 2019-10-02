@@ -89,7 +89,7 @@ body {
 ul{
   list-style: none;
   border-bottom: 1px solid #979797;
-  background-color: #e5e5e5;
+  background-color: #f8f8f8;
   padding-top: 2%;
   height:100px;
 }
@@ -110,6 +110,31 @@ h2{
   width: 35px;
 }
 
+.no_service{
+  background: #c9c9c9;
+  background-position: center;
+  border-radius: 80%;
+  height: 35px;
+  margin-top:23px;
+  margin-left:3%;
+  padding-top: 10px;
+  text-align: center;
+  text-weight: 600;
+  width: 35px;
+}
+
+.reroute{
+  background: red;
+  background-position: center;
+  border-radius: 80%;
+  height: 35px;
+  margin-top:23px;
+  margin-left:3%;
+  padding-top: 10px;
+  text-align: center;
+  text-weight: 600;
+  width: 35px;
+}
 
 .middle, .list-right, .time{
   position: relative;
